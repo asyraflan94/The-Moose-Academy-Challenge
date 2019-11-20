@@ -1,0 +1,9 @@
+<?php
+function capitalize(){
+	$word='besarkan saya please';
+    $word = ucwords($word);
+    echo($word);
+}
+
+capitalize();
+?>
